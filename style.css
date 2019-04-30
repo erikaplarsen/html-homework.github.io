@@ -3,11 +3,127 @@ body {
   }
   h1 {
     font-size: 30px;
-    font-color:
+    font-color: black
     margin-bottom:10 px;
     text-align:left;
+    position:relative;
     
     background-color: azure;
-    <!-- border-style: solid; -->
+  
     
   }
+
+  img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+  
+  p{
+    text-align:left;
+    font-size:20;
+    
+    
+  }
+  ul{
+    
+  }
+  
+  li{
+    
+  }
+  
+  .box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+  }
+  
+  .box {
+    
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #azure;
+    border: 2px solid black;
+  }
+  
+  .box-1 {
+    top: 20px;
+  }
+  
+  .box-2 {
+    left: 40px;
+  }
+  
+  .box-3 {
+    right: 20px;
+    bottom: -10px;
+  }
+  
+  
+  .navbar {
+    padding: 5px;
+    background: #blue;
+  }
+  
+  
+  .navbar li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  
+  }
+  
+  
+  .header {
+    height: 200px;
+    padding-top: 20px;
+    background:black;
+  }
+  
+  
+  .header h1 {
+    padding: 60px;
+    margin: 5;
+    color: #000;
+    text-align: center;
+  }
+  
+  
+  .post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+        
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+    
+    .box-1 {
+      background: purple;
+    } 
+  }
+  
